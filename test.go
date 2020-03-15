@@ -10,8 +10,9 @@ import (
 	"google.golang.org/api/option"
 )
 
-// Replace with path to credentials file. Obtainable here: https://console.cloud.google.com/apis/credentials/serviceaccountkey?_ga=2.176794983.336131438.1584302922-1433294965.1584302922
-const credentials string = "/home/coderdojo/go/credentials/Society-App-d55080e09447.json"
+// Don't modify this path
+// Add the Viewer and Editor credentials from here: https://console.cloud.google.com/apis/credentials/serviceaccountkey?_ga=2.176794983.336131438.1584302922-1433294965.1584302922
+const credentials string = "./credentials/Viewer/Society-App-d55080e09447.json"
 
 func main() {
 
